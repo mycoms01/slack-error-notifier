@@ -1,5 +1,5 @@
 {
-    "name": "freshbitsweb/slack-error-notifier",
+    "name": "mycoms01/slack-error-notifier",
     "description": "Send a message to a Slack channel when error occurs in your Laravel Application",
     "require": {
         "php": ">=7.0",
@@ -9,8 +9,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Gaurav Makhecha",
-            "email": "info@freshbits.in"
+            "name": "",
+            "email": ""
         }
     ],
     "minimum-stability": "dev",
