@@ -9,6 +9,8 @@ class RequestDataProcessor
      */
     public function __invoke($record)
     {
+        $record['extra']['file']=$record['context']['exception']->getFile();
+        $record['extra']['line']=$record['context']['exception']->getLine();
         if (config('slack_error_notifier.add_input_data')) {
             $record['extra']['inputs'] = request()->except(config('slack_error_notifier.ignore_request_fields'));
         }
